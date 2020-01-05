@@ -33,6 +33,7 @@ html {
   width: 100px;
   top: 0;
   background-color: #929292;
+  list-style: none;
 }
 
 .app .menu .list .item {
