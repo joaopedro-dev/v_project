@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+$title_font:'Gelasio', serif;
+
+html{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.app{
+    padding: 0;
+    border: 0;
+    .menu{
+        margin: 0;
+        padding: 0;
+        .list{
+            padding-top: 10px;
+            padding-left: 55px;
+            left: -4px;
+            margin: 0;
+            border: 0;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            height: 100vh;
+            width: 100px;
+            top: 0;
+            background-color: rgb(146, 146, 146);
+            .item{
+                padding: 2px;
+                :hover{
+                    color: #444444;
+                };
+                a{
+                    text-decoration: none;
+                    color: blanchedalmond;
+                    font-size: 18px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .dash{
+        padding-left: 180px;
+        padding-right: 110px;
+        .title{
+            font-family: $title_font;
+        }
+    }
+}
