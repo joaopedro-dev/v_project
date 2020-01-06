@@ -32,11 +32,12 @@ html {
   height: 100vh;
   width: 100px;
   top: 0;
-  background-color: #929292;
+  background-color: #ff8800;
   list-style: none;
 }
 
 .app .menu .list .item {
+  font-family: "Gelasio", serif;
   padding: 2px;
 }
 
