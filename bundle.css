@@ -33,7 +33,7 @@ html {
   height: 100vh;
   width: 100px;
   top: 0;
-  background-color: #ff8800;
+  background-color: #ff5100;
   list-style: none;
 }
 
@@ -59,12 +59,16 @@ html {
 }
 
 .app .dash .principal_title {
-  font-family: "Shrikhand", cursive;
+  font-family: "Gelasio", serif;
   letter-spacing: 2px;
 }
 
 .app .dash .title {
   font-family: "Gelasio", serif;
+}
+
+.app .dash textarea {
+  border-radius: 2px;
 }
 
 .app .dash fieldset {
