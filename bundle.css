@@ -80,4 +80,8 @@ html {
 .app .dash a {
   text-decoration: none;
 }
+
+.app .dash footer {
+  font-size: 14px;
+}
 /*# sourceMappingURL=bundle.css.map */
