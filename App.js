@@ -14,4 +14,7 @@ document.getElementById("botao3").addEventListener("click",function(){
     document.getElementById("text3").select()
     document.execCommand('copy')
 })
-
+document.getElementById("botao4").addEventListener("click",function(){
+    document.getElementById("text4").select()
+    document.execCommand('copy')
+})
