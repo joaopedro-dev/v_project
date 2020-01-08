@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Shrikhand&display=swap");
 html {
   padding: 0;
   border: 0;
@@ -32,11 +33,12 @@ html {
   height: 100vh;
   width: 100px;
   top: 0;
-  background-color: #929292;
+  background-color: #ff5100;
   list-style: none;
 }
 
 .app .menu .list .item {
+  font-family: "Gelasio", serif;
   padding: 2px;
 }
 
@@ -56,7 +58,30 @@ html {
   padding-right: 110px;
 }
 
+.app .dash .principal_title {
+  font-family: "Gelasio", serif;
+  letter-spacing: 2px;
+}
+
 .app .dash .title {
   font-family: "Gelasio", serif;
+}
+
+.app .dash textarea {
+  border-radius: 2px;
+}
+
+.app .dash fieldset {
+  -webkit-box-shadow: 3px 2px 1px 1px;
+          box-shadow: 3px 2px 1px 1px;
+  border-radius: 10px;
+}
+
+.app .dash a {
+  text-decoration: none;
+}
+
+.app .dash footer {
+  font-size: 14px;
 }
 /*# sourceMappingURL=bundle.css.map */
