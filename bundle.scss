@@ -20,8 +20,8 @@ html{
 
         .list{
             padding-top: 10px;
-            padding-left: 55px;
-            left: -6px;
+            padding-left: 15px;
+            left: -1px;
             margin: 0;
             border: 0;
             display: flex;
@@ -47,7 +47,10 @@ html{
                     font-size: 18px;
                     padding: 0;
                 }
-                
+            }
+            .qr_code{
+                padding-top: 20px;
+                padding-right: 30px;   
             }
         }
     }
