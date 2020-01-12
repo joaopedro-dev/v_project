@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Fugaz+One|Gelasio|Kavoon|Passion+One&display=swap');
 
 $title_font:'Gelasio', serif;
-$principal_title: 'Shrikhand', cursive;
+$principal_title: 'Kavoon', cursive;
+$text_font: 'Gelasio', serif;
 
 html{
     padding: 0;
@@ -30,26 +32,41 @@ html{
             height: 100vh;
             width: 100px;
             top: 0;
-            background-color: rgb(255, 81, 0);
+            background-color: rgb(0, 183, 255);
             list-style: none;
 
+            .logo{
+                padding-bottom: 10px;
+                img{
+                    padding-top: 10px;
+                    padding-left: 9px;
+                    padding-bottom: 10px;
+                    padding-right: 10px;
+                    background-color: white;
+                    width: 62px;
+                    border-radius: 5px;
+                    box-shadow: 2px 2px 3px 2px #444444;
+                }
+            }
+
             .item{
-                font-family: $title_font;
-                padding: 2px;
+                font-family: $principal_title;
+                padding: 2px;   
 
                 :hover{
-                    color: #444444;
+                    color: white;
                 }
 
                 a{
                     text-decoration: none;
-                    color: blanchedalmond;
+                    color: black;
                     font-size: 18px;
                     padding: 0;
                 }
             }
+
             .qr_code{
-                padding-top: 20px;
+                padding-top: 300px;
                 padding-right: 30px;   
             }
         }
@@ -58,9 +75,12 @@ html{
         padding-left: 180px;
         padding-right: 110px;
 
-        .principal_title{
-            font-family: $title_font;
-            letter-spacing: 2px;
+        .title_dash{
+            display: flex;
+            .principal_title{
+                font-family: $title_font;
+                letter-spacing: 2px;
+            }
         }
 
         .title{
@@ -72,17 +92,23 @@ html{
         }
 
         fieldset{
-            box-shadow: 3px 2px 1px 1px;
+            box-shadow: 4px 4px 4px 1px #444444;
             border-radius: 10px;
         }
 
         a{
             text-decoration: none;
         }
-
-        footer{
-            font-size: 14px;
+        p{
+            font-family: 'Gelasio', serif;
+            font-size: 18px;
         }
-
     }
+    .footer{
+        .copy{
+            padding-top: 20px;
+            padding-left: 180px;
+        }
+    }
+    
 }

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Fugaz+One|Gelasio|Kavoon|Passion+One&display=swap");
 html {
   padding: 0;
   border: 0;
@@ -33,28 +34,44 @@ html {
   height: 100vh;
   width: 100px;
   top: 0;
-  background-color: #ff5100;
+  background-color: #00b7ff;
   list-style: none;
 }
 
+.app .menu .list .logo {
+  padding-bottom: 10px;
+}
+
+.app .menu .list .logo img {
+  padding-top: 10px;
+  padding-left: 9px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background-color: white;
+  width: 62px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 3px 2px #444444;
+          box-shadow: 2px 2px 3px 2px #444444;
+}
+
 .app .menu .list .item {
-  font-family: "Gelasio", serif;
+  font-family: "Kavoon", cursive;
   padding: 2px;
 }
 
 .app .menu .list .item :hover {
-  color: #444444;
+  color: white;
 }
 
 .app .menu .list .item a {
   text-decoration: none;
-  color: blanchedalmond;
+  color: black;
   font-size: 18px;
   padding: 0;
 }
 
 .app .menu .list .qr_code {
-  padding-top: 20px;
+  padding-top: 300px;
   padding-right: 30px;
 }
 
@@ -63,7 +80,13 @@ html {
   padding-right: 110px;
 }
 
-.app .dash .principal_title {
+.app .dash .title_dash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app .dash .title_dash .principal_title {
   font-family: "Gelasio", serif;
   letter-spacing: 2px;
 }
@@ -77,8 +100,8 @@ html {
 }
 
 .app .dash fieldset {
-  -webkit-box-shadow: 3px 2px 1px 1px;
-          box-shadow: 3px 2px 1px 1px;
+  -webkit-box-shadow: 4px 4px 4px 1px #444444;
+          box-shadow: 4px 4px 4px 1px #444444;
   border-radius: 10px;
 }
 
@@ -86,7 +109,13 @@ html {
   text-decoration: none;
 }
 
-.app .dash footer {
-  font-size: 14px;
+.app .dash p {
+  font-family: 'Gelasio', serif;
+  font-size: 18px;
+}
+
+.app .footer .copy {
+  padding-top: 20px;
+  padding-left: 180px;
 }
 /*# sourceMappingURL=bundle.css.map */
