@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Fugaz+One|Gelasio|Kavoon|Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
 html {
   padding: 0;
   border: 0;
@@ -55,7 +56,7 @@ html {
 }
 
 .app .menu .list .item {
-  font-family: "Kavoon", cursive;
+  font-family: "Patua One", cursiv;
   padding: 2px;
 }
 
